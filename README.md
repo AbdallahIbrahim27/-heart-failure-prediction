@@ -1,35 +1,36 @@
-🧠 Heart Failure Risk Prediction – ML Project Summary
-📌 Objective
-Build a machine learning model to predict the risk of death due to heart failure, using clinical records — with a focus on maximizing recall to catch all actual positive cases (high-risk patients).
+🧠Heart Failure Risk Prediction
+A Machine Learning Project Focused on Saving Lives
 
-🗂 Dataset
-Source: Heart Failure Clinical Records Dataset (UCI Machine Learning Repository)
+🎯 Goal
+To develop a machine learning model that predicts the risk of death from heart failure, with a focus on maximizing recall to ensure high-risk patients are correctly identified.
+
+📊 Dataset
+Source: Heart Failure Clinical Records (https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data)
 
 Features: Age, Ejection Fraction, Serum Creatinine, High Blood Pressure, Diabetes, etc.
 
-Target: Death Event (1 = death occurred, 0 = survived)
+Target: DEATH_EVENT (1 = died, 0 = survived)
 
-🧪 Models Explored
+🧪 Models Compared
 Logistic Regression
 
 Decision Tree
 
 K-Nearest Neighbors (KNN)
 
-✅ Random Forest (Final Model)
+✅ Random Forest (selected for deployment based on recall performance)
 
-🎯 Key Metric
-Recall was prioritized over accuracy to minimize false negatives, ensuring high-risk patients are not missed.
+🔍 Why Recall?
+In healthcare, false negatives can be fatal.
+Prioritizing recall ensures we capture as many true positive (high-risk) cases as possible — even at the expense of some false positives.
 
-🛠️ Tools & Tech
-Python (Pandas, scikit-learn, matplotlib, seaborn)
+🛠 Tech Stack
+Python: pandas, scikit-learn, matplotlib, seaborn
 
-Streamlit (for deployment and GUI)
+Streamlit: for interactive deployment and GUI
 
-Git & GitHub
+Version Control: Git & GitHub
 
-🌐 Deployment
-A user-friendly Streamlit app was developed to allow users to input patient data and receive instant predictions.
-
-🔗 Live App: [https://heart-failure-prediction-project.streamlit.app/]
-📁 GitHub Repo: [https://github.com/AbdallahIbrahim27/-heart-failure-prediction]
+🚀 Try It Out
+🔗 Live Application: [https://lnkd.in/dxWHbKBp]
+📁 GitHub Repository: [https://lnkd.in/das8UdV3]
